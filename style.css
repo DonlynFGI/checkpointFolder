@@ -68,10 +68,7 @@
   background-size:cover;
 }
 
-.spill{
-  position:absolute;
-  bottom:220px;
-}
+
 
 .model-cardtwo{
   width:30vw;
@@ -98,6 +95,7 @@ img {
   object-fit: cover; /* or object-fit: contain; */
   align-self:flex-end;
 }
+
 
 .bg-image{
   background:url(https://www.childrens.com/wps/wcm/connect/childrenspublic/b3bc2024-8896-464e-8714-693ff390506b/shutterstock_778032451_800x480.jpg?MOD=AJPERES&CVID=) no-repeat;
@@ -132,3 +130,17 @@ img {
     flex-wrap:wrap;
   }
 }
+
+@media only screen and (min-width:20px) and (max-width:900px){
+  .mob-just{
+    flex-wrap:wrap;
+    flex-direction:column;
+  }
+  }
+
+  @media only screen and (min-width:900px){
+    .spill{
+      position:absolute;
+      bottom:220px;
+    }
+  }
