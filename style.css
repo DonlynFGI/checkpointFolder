@@ -1,0 +1,134 @@
+.customtext {
+  font-family: 'Lobster', cursive;
+}
+
+.model-box{
+  width:35em;
+  height:20em;
+  margin-top:5vw;
+  margin-left:3vw
+}
+
+.model-boxtwo{
+  width:15em;
+  height:30em;
+  margin-top:5vw;
+  margin-left:3vw
+}
+
+.model-boxthree{
+  width:30em;
+  height:35em;
+  margin-top:5vw;
+  margin-left:3vw
+}
+
+.model-boxfour{
+  width:50em;
+  height:25em;
+  margin-top:5vw;
+  margin-left:3vw;
+  align-self:center;
+}
+
+.a-left{
+  align-self:left;
+  align-items: left;
+
+}
+
+
+
+.aligner{
+  align-self:flex-end
+}
+.fex{
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.model-card{
+  width:25vw;
+  height:15vw;
+}
+
+.centre{
+  justify-content: center;
+}
+
+.img-cover{
+  background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fstock-photo-kid-running-57985802.html&psig=AOvVaw1anRSFSfi9dzqzioQc_rgN&ust=1633810741496000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLCvubrRu_MCFQAAAAAdAAAAABAP) no-repeat center center fixed;
+  background-size:cover;
+  flex-wrap: wrap;
+}
+
+.bt-img{
+  background:url(https://www.hungryhowies.com/sites/default/files/styles/menu_item_280x175/public/images/menu-items/thumbnails/buildyourownpizza_0.png?itok=fgzFck86) no-repeat;
+  background-size:cover;
+}
+
+.spill{
+  position:absolute;
+  bottom:220px;
+}
+
+.model-cardtwo{
+  width:30vw;
+  height:20vw;
+}
+
+.fextwo{
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap:nowrap;
+}
+
+.ankhid{
+  flex-direction: row !important;
+  justify-content: space-evenly !important;
+  font-size:5em;
+}
+
+img {
+  display: block;
+  width: 80vw;
+  height: 50vh;
+  object-fit: cover; /* or object-fit: contain; */
+  align-self:flex-end;
+}
+
+.bg-image{
+  background:url(https://www.childrens.com/wps/wcm/connect/childrenspublic/b3bc2024-8896-464e-8714-693ff390506b/shutterstock_778032451_800x480.jpg?MOD=AJPERES&CVID=) no-repeat;
+ background-size:cover; 
+}
+
+
+.ige-cvr{
+  width: 22vw!important;
+  height: 23vh!important;
+  align-self:center;
+  justify-self:center;
+}
+
+
+@media only screen and (min-width:20px) and (max-width:900px){
+  .re-sizer{
+    width:25vw;
+    height:15vw;
+  }
+}
+
+@media only screen and (min-width:20px) and (max-width:900px){
+.reorder{
+  order:-1;
+}
+}
+
+@media only screen and (min-width:20px) and (max-width:900px){
+  .fexify{
+    flex-direction:column;
+    flex-wrap:wrap;
+  }
+}
