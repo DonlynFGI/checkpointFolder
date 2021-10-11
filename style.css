@@ -147,6 +147,6 @@ img {
 
 @media only screen and (max-width:900px){
   .hider-mob{
-    display:none;
+    display:none!important;
   }
 }
