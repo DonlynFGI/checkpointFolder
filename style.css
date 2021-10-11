@@ -144,3 +144,9 @@ img {
       bottom:-110px;
     }
   }
+
+@media only screen and (max-width:900px){
+  .hider-mob{
+    display:none;
+  }
+}
